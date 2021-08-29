@@ -1,0 +1,170 @@
+@charset "UTF-8";
+* {
+	margin: 0px;
+	padding: 0px;
+}
+header section nav footer{
+    display: block;
+}
+body{margin-left: auto;
+    margin-right: auto;
+    font-family: 'helvetica', sans-serif;
+    background-color: #1e93cc;
+}
+header, footer {
+    background-color: #333
+}
+header{
+    height: 75px;
+    padding-left: 150px;
+}
+#glasses{
+    height: 500px;
+}
+#glasses h1{
+    color: white;
+    font-weight: 100;
+}
+.glasses{
+    float: left;
+    padding-top: 20px;
+    padding-left: 100px;
+    width: 25%;
+    height: auto;
+}
+#turlututu{
+    text-align: center
+}
+#turlututu img, #turlututu h1 {
+    padding-top: 40px;
+}
+button{
+    position: relatives;
+    margin-top: 30px;
+}
+header img{
+    float: left;
+    padding-top: 15px;
+}
+ul{
+    padding-top: 25px;
+}
+li {
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+    position: relative;
+    padding-left: 15px;
+    font-weight: 100;
+}
+li a {
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+button{
+    width: 250px;
+    height: 75px;
+    border: 5px solid white;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    overflow: hidden;
+    font-weight: bold;
+}
+.blue{
+    background-color: #165882;
+}
+.blue a{
+    color: white;
+    text-decoration: none;
+}
+.orange{
+    background-color: orange;
+}
+.orange a{
+    color: white;
+    text-decoration: none;
+}
+#text {
+
+}
+#text h1, #logo h1 {
+    background-color: white;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#logo h1 {
+    text-align: center;
+    font-weight: 100;
+    color: gray;
+}
+
+article h2, p{
+    color: white;
+    font-weight: 100;
+    padding-top: 15px;
+}
+article h2{
+    font-size: 30px;
+}
+article{
+    padding-top: 20px;
+    padding-left: 40px;
+    width: 600px;
+    height: 150px;
+}
+
+#row1{
+display: flex;
+}
+#row2{
+    display: flex;
+}
+#logo{
+    background-color: #eee;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#logo img{
+    width: 100px;
+    height: auto;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+#product{
+    position: relative;
+}
+#buttons{
+    background-color: white;
+    height: 200px;
+    position: relative;
+    text-align: center;
+}
+footer{
+    background-color: #333;
+    height: 70px;
+}
+#footer{
+    position: absolute;
+    padding-left: 30px;
+}
+
+#name{
+float: right;
+    padding-right: 30px;
+}
+.message {
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    padding-right: 50px;
+}
+.fixed {
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+}
